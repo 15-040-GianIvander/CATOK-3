@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-image: url(background.png);
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: #F3F3E0;
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   color: #133E87;
+   transform: scale(1.1);
+   transition: color 0.3s ease-in-out;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}
+.container .biodata{
+    display: flex;
+}
+.container .biodata img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 2px solid black;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}
+.perkenalan{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+}
+.perkenalan p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+.container .about-me{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+table, td, th {  
+    border: 1px solid #000000;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table {
+    border-collapse: collapse;
+    border-width: 0%;
+    width: 100%;
+    height: 20px;
+}
+th, td {
+    padding: 15px;
+    background-color: #CBDCEB;
+    color: #000000;
+}
+.container .experience{
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.experience article{
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+.container .contact{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.contact p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
